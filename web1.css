@@ -3,13 +3,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#navbar{
+.navbar{
     background-color: #000000;
     overflow: hidden;
     margin: 0;
 }
 
-#navbar ul{
+.navbar ul{
     color: black;
     padding: 14px 20px;
     display: flex;
@@ -18,13 +18,13 @@ body{
     list-style: none;
 }
 
-#navbar ul li a{
+.navbar ul li a{
     text-decoration: none;
     color: rgb(197, 197, 199);
     font-weight: bold;
     cursor: pointer;
 }
 
-#navbar ul li a:hover{
+.navbar ul li a:hover{
     color: rgb(255, 255, 255);
 }
