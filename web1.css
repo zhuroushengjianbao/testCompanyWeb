@@ -58,7 +58,7 @@ body{
 
 .homeBackground {
     width: 100%;
-    height: 1200px;
+    height: calc(100vh - 70px - 50px); /* 减掉导航栏和页脚高度 */
     background-image: url("image/homeBackground.jpg");
     background-size: cover;      /* ⭐ 自动适配 */
     background-position: center; /* 居中裁切 */
@@ -85,12 +85,16 @@ body{
 }
 
 .homeText h1 {
-    font-size: 40px;
+    font-size: 4vw;
     margin: 0;
 }
 
+.homeText p {
+    font-size: 1vw;
+}
+
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%;
