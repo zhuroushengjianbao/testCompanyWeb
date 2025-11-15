@@ -90,5 +90,12 @@ body{
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--navbar-background);
+    color: rgb(229, 229, 231);
     text-align: center;
+    padding: 10px 0;
 }
