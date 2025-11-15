@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xx公司</title>
+    <title>上海珲丽实业有限公司</title>
     <link rel="stylesheet" href="web1.css">
     <script src="web1.js" defer></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <ul>
+            <div class="navbar-left">
+                <div class="logo">
+                    <img src="image/logo.png" alt="公司Logo" height="50">
+                </div>
+            </div>
+
+            <ul class="navbar-menu">
                 <li><a onclick="showHome()">首页</a></li>
                 <li><a onclick="showAbout()">关于我们</a></li>
                 <li><a onclick="showApplicationCenter()">产品中心</a></li>
@@ -21,9 +27,17 @@
         </nav>
     </header>
 
+
     <section class="home" style="display: none;">
-        <h1>欢迎来到xx公司</h1>
-        <p>这是首页内容。</p>
+        <div class="homeBackground">
+            <div class="homeText">
+                <h1>欢迎来到上海珲丽</h1>
+                <p>专注新材料解决方案 · 提供专业与可靠的服务</p>
+            </div>
+        </div>
+
+
+
     </section>
 
     <section class="about" style="display: none;">
@@ -52,4 +66,9 @@
     </section>
 
 </body>
+
+<footer>
+    <p>&copy; 2025 上海珲丽实业有限公司. 保留所有权利。</p>
+</footer>
+
 </html>
